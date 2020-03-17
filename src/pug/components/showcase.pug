@@ -1,0 +1,39 @@
+div
+    .carousel.slide.carousel-fade#showcaseCarousel(data-ride="carousel")
+        ol.carousel-indicators
+            li.active(data-target="#showcaseCarousel", data-slide-to="0")
+            li(data-target="#showcaseCarousel", data-slide-to="1")
+            li(data-target="#showcaseCarousel", data-slide-to="2")
+        .carousel-inner
+            .carousel-item.active
+                .row.mx-auto.p-lg-5.p-0
+                    .col-lg-8
+                        p.lead Are you looking for new <strong class="text-success font-weight-bold">Stuff</strong>?
+                        p.small.text-muted Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto eligendi pariatur dolorum eius officia accusamus maxime eveniet impedit ea error quod quaerat nobis magni corrupti accusantium, dicta inventore? Eius soluta incidunt velit magni cum recusandae fugiat ex blanditiis, amet unde.
+                        .text-center
+                            a.btn.btn-success(href="") View All new Stuff
+                    .col-lg-4.p-4
+                        img.img-fluid(src=require("../../images/88-882353_shopping-model.png").default)
+            .carousel-item
+                .row.mx-auto.p-lg-5.p-0
+                    .col-lg-4
+                        p.lead New <strong class="text-warning font-weight-bold">Offers<i class="fa fa-star mx-1"></i></strong>
+                        p.small.text-muted Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi, magni autem eum eveniet vero amet ex impedit quos vel minima similique nemo nihil dolores reprehenderit maiores placeat temporibus molestias. Veniam autem sit, aperiam temporibus perferendis obcaecati ipsa officiis accusamus iure reiciendis esse quis, omnis corporis rerum mollitia quas recusandae!
+                        .text-center
+                            a.btn.btn-warning(href="")
+                                span.fa-stack
+                                    i.fa.fa-stack-2x.fa-circle.text-light
+                                    i.fa.fa-star.fa-stack-1x.text-warning
+                                span.mx-1.lead Read More
+                    .col-lg-8.p-0
+                        img.img-fluid.w-100(src=require("../../images/6673608_preview.png").default)
+            .carousel-item
+                .row.mx-auto.p-lg-5.p-0
+                    .col-lg-7
+                        p.lead <strong class="text-primary font-weight-bold">Spring</strong> is coming
+                        p.small.text-muted Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nisi, magni autem eum eveniet vero amet ex impedit quos vel minima similique nemo nihil dolores reprehenderit maiores placeat temporibus molestias. Veniam autem sit, aperiam temporibus perferendis obcaecati ipsa officiis accusamus iure reiciendis esse quis, omnis corporis rerum mollitia quas recusandae!
+                        .text-center
+                            a.btn.btn-primary(href="")
+                                span.mx-1.lead View All Spring fashion
+                    .col-lg-5.p-0
+                        img.img-fluid.w-100(src=require("../../images/shopping-transparent-couple-2.png").default)

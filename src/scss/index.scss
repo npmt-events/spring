@@ -1,0 +1,14 @@
+@import "./variables.scss";
+@import "./components/navbar.scss";
+
+.carousel {
+  .carousel-indicators {
+    li {
+      background-color: $dark;
+    }
+
+    .active {
+      background-color: $red;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.dropdown {
+  .dropdown-menu {
+    background-color: darken(lightblue, 10%);
+    color: $white;
+  }
+
+  @media (min-width: 992px) {
+    position: static;
+    .dropdown-menu {
+      border: none;
+      width: 100%;
+      left: 0;
+      right: 0;
+      top: 60px;
+      word-wrap: break-word;
+      &:hover {
+        display: block !important;
+      }
+    }
+
+    &:hover {
+      .dropdown-menu {
+        display: block !important;
+      }
+    }
+  }
+}
