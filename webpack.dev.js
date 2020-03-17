@@ -8,7 +8,7 @@ const webpack = require("webpack");
 const devConfig = merge(defaultWebpackConfig, {
   mode: "development",
   devServer: {
-    port: 9090
+    port: 9000
   },
   output: {
     filename: "js/[name].js",
