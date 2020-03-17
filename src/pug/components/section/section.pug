@@ -1,4 +1,4 @@
-.col-12.row.mx-auto.justify-content-between.py-2.my-3.container
+.col-12.py-2.px-0.my-3
     ul.col-10.nav.mx-auto
         li.nav-item
             a.nav-link.text-dark(href="",style="text-decoration:underline") All
@@ -6,16 +6,35 @@
             a.nav-link.text-muted(href="") Featured
         li.nav-item
             a.nav-link.text-muted(href="") Sale
-    include ../../mixin/product
-    +ProductCard({name : 'Dell 3000 Laptop', price : 7000})
-        img.img-fluid.active-thumb(src=require("../images/products/product_1_thumb.jpg").default, alt="")
-    +ProductCard({name : 'Dell 5000 laptop', price : 14000})
-        img.img-fluid.active-thumb(src=require("../images/products/product_1_hover.jpg").default, alt="")
-    +ProductCard({name : 'T-shirt', price : 199})
-        img.img-fluid.active-thumb(src=require("../images/products/t-shirt1.jpg").default, alt="")
-    +ProductCard({name : 'Polo', price : 300})
-        img.img-fluid.active-thumb(src=require("../images/products/71b+fEp2z-L._UY550_.jpg").default, alt="")
-    +ProductCard({name : 'Polo lacoste', price : 400})
-        img.img-fluid.active-thumb(src=require("../images/products/men-27s-polo-t-shirt-500x500.jpg").default, alt="")
-    +ProductCard({name : 'Huawei Y9 prime', price : 4000})
-        img.img-fluid.active-thumb(src=require("../images/products/Huawei-Y9-Prime-2019.jpg").default, alt="")
+    .row.mx-auto.justify-content-between.pb-3
+        include ../../mixin/product
+        +ProductCard({name : 'Dell 3000 Laptop', price : 7000})
+            img.img-fluid.active-thumb(src=require("../images/products/product_1_thumb.jpg").default, alt="")
+        +ProductCard({name : 'Dell 5000 laptop', price : 14000})
+            img.img-fluid.active-thumb(src=require("../images/products/product_1_hover.jpg").default, alt="")
+        +ProductCard({name : 'T-shirt', price : 199})
+            img.img-fluid.active-thumb(src=require("../images/products/t-shirt1.jpg").default, alt="")
+        +ProductCard({name : 'Polo', price : 300})
+            img.img-fluid.active-thumb(src=require("../images/products/71b+fEp2z-L._UY550_.jpg").default, alt="")
+        +ProductCard({name : 'Polo lacoste', price : 400})
+            img.img-fluid.active-thumb(src=require("../images/products/men-27s-polo-t-shirt-500x500.jpg").default, alt="")
+        +ProductCard({name : 'Huawei Y9 prime', price : 4000})
+            img.img-fluid.active-thumb(src=require("../images/products/Huawei-Y9-Prime-2019.jpg").default, alt="")
+        .col-12.text-center
+            a.btn.btn-outline-dark(href="",style="font-size:x-large") Load More
+    .col-12.row.mx-auto.my-2.p-3.justify-content-center(style="background-color:lightblue")
+        p.display-4.col-lg-7.text-primary Spring '<strong>20</strong> collections 
+        p.text-muted.small.col-lg-5 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, assumenda omnis? Nihil officiis esse reprehenderit veritatis tempore corporis sit rerum necessitatibus perferendis, quisquam quis vel deleniti nemo, incidunt ex sunt sed animi maiores exercitationem libero eum eveniet natus! Magnam repellendus exercitationem mollitia error eos fugiat molestias. Magni ipsam eveniet optio?
+        .col-lg-6.text-center.px-0.p-3(data-aos="fade-up-right",data-aos-duration="1000")
+            img.img-fluid.rounded.w-100(src=require("../images/products/chrono_s_blue_brown_1_1024x1024.jpg").default, alt="")
+        .col-lg-6.px-0.row.mx-auto(data-aos="zoom-in")
+            .col-lg-6.mt-lg-2(style="max-height:300px;overflow:hidden",data-aos="fade-up",data-aos-duration="2000")
+                img.img-fluid.rounded(src=require("../images/products/10_41_113864_41302398_PIRVING_6-01_1555593422.jpg").default, alt="")
+            .col-lg-6.mt-lg-2(style="max-height:300px;overflow:hidden",data-aos="fade-up",data-aos-duration="2000")
+                img.img-fluid.rounded(src=require("../images/products/10114568_inspired_anytime_midi_dress_navy_MAIN.jpg").default, alt="")
+            .col-lg-6.mt-lg-2(style="max-height:300px;overflow:hidden",data-aos="fade-up",data-aos-duration="2000")
+                img.img-fluid.rounded(src=require("../images/products/1.jpg").default, alt="")
+            .col-lg-6.mt-lg-2(style="max-height:300px;overflow:hidden",data-aos="fade-up",data-aos-duration="2000")
+                img.img-fluid.rounded(src=require("../images/products/0fbbce15480dda14df9938b93658056f.jpg").default, alt="")
+        
+
