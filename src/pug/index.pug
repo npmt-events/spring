@@ -4,14 +4,6 @@ block content
         include components/navbar/navbar
         .row.mx-auto.container.bg-white
             include components/showcase
-            .col-12.row.mx-auto
-                include mixin/product
-                script 
-                    -
-                        let products = [
-                        {id:1, name:"Product one" ,desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, nisi. Eaque"}
-                        ];
-                each product in products 
-                    +ProductCard(product)       
+            include components/section/section
 
             
