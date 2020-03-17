@@ -1,6 +1,7 @@
 @import "./variables.scss";
 @import "./components/navbar.scss";
 
+// carousel styling
 .carousel {
   .carousel-indicators {
     li {
@@ -8,11 +9,12 @@
     }
 
     .active {
-      background-color: $red;
+      background-color: #fd7d05;
     }
   }
 }
 
+// product section
 .product-img-container {
   overflow: hidden;
   position: relative;
@@ -57,6 +59,13 @@
   }
 }
 
+// typograph
+.heading-1 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+// animations
 @keyframes fadeIn {
   from {
     opacity: 0;
