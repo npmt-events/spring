@@ -1,0 +1,19 @@
+/*! ../scss/index.scss */
+
+/*! ModuleConcatenation bailout: Module is an entry point */
+
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+
+/*! all exports used */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+
+/*!*****************************!*\
+  !*** ./src/scss/index.scss ***!
+  \*****************************/

@@ -1,0 +1,33 @@
+/*! ./../../webpack/buildin/global.js */
+
+/*! ModuleConcatenation bailout: Module is an entry point */
+
+/*! ModuleConcatenation bailout: Module is not an ECMAScript module */
+
+/*! all exports used */
+
+/*! aos */
+
+/*! aos/dist/aos.css */
+
+/*! exports used: default */
+
+/*! no exports provided */
+
+/*! no static exports found */
+
+/*!***********************!*\
+  !*** ./src/js/aos.js ***!
+  \***********************/
+
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+
+/*!**************************************!*\
+  !*** ./node_modules/aos/dist/aos.js ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/aos/dist/aos.css ***!
+  \***************************************/
