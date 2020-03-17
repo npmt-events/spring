@@ -25,13 +25,7 @@ const buidlConfig = MergeWebpackConfig(DefaultWebpackConfig, {
       }),
       new OptimizeCssAssetsWebpackPlugin()
     ],
-    mergeDuplicateChunks: true,
-    splitChunks: {
-      chunks: "all",
-      name: "vendor",
-      automaticNameDelimiter: "-",
-      minChunks: 1
-    }
+    mergeDuplicateChunks: true
   },
   plugins: [
     new webpack.ProvidePlugin({
