@@ -1,0 +1,21 @@
+.col-12.row.mx-auto.justify-content-between.py-2.my-3.container
+    ul.col-10.nav.mx-auto
+        li.nav-item
+            a.nav-link.text-dark(href="",style="text-decoration:underline") All
+        li.nav-item
+            a.nav-link.text-muted(href="") Featured
+        li.nav-item
+            a.nav-link.text-muted(href="") Sale
+    include ../../mixin/product
+    +ProductCard({name : 'Dell 3000 Laptop', price : 7000})
+        img.img-fluid.active-thumb(src=require("../images/products/product_1_thumb.jpg").default, alt="")
+    +ProductCard({name : 'Dell 5000 laptop', price : 14000})
+        img.img-fluid.active-thumb(src=require("../images/products/product_1_hover.jpg").default, alt="")
+    +ProductCard({name : 'T-shirt', price : 199})
+        img.img-fluid.active-thumb(src=require("../images/products/t-shirt1.jpg").default, alt="")
+    +ProductCard({name : 'Polo', price : 300})
+        img.img-fluid.active-thumb(src=require("../images/products/71b+fEp2z-L._UY550_.jpg").default, alt="")
+    +ProductCard({name : 'Polo lacoste', price : 400})
+        img.img-fluid.active-thumb(src=require("../images/products/men-27s-polo-t-shirt-500x500.jpg").default, alt="")
+    +ProductCard({name : 'Huawei Y9 prime', price : 4000})
+        img.img-fluid.active-thumb(src=require("../images/products/Huawei-Y9-Prime-2019.jpg").default, alt="")
