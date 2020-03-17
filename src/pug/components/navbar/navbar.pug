@@ -1,0 +1,36 @@
+header(style="background-color:lightblue")
+    nav.navbar.navbar-expand-lg.navbar-light.container
+        a.navbar-brand.text-center(href="")
+            span.h2.text-primary Spring
+            sup.text-muted.font-weight-light.font-italic.mt-n3.small  Market
+            br
+            span.text-muted(style="font-size:12px") find every thing
+        button.navbar-toggler(data-toggle="collapse",data-target="#spring_navbar",aria-expand="false")
+            span.navbar-toggler-icon
+        .collapse.navbar-collapse#spring_navbar
+            ul.navbar-nav
+                li.nav-item
+                    a.nav-link(href="#")
+                        span Home
+                // dropdown menu start
+                li.nav-item.dropdown
+                    a.nav-link.dropdown-toggle#shops_menu(data-toggle="dropdown", aria-expanded="false", aria-haspopup="true", role="button",href="#") Categories
+                    include navbar-dropdown
+                    // dropdown menu end
+                    li.nav-item
+                        a.nav-link(href="#")
+                            span Help
+            hr.d-lg-none.d-block
+            ul.nav.ml-auto.justify-content-center
+                li.nav-item.col-lg-auto.col-12.mb-lg-0.mb-2.mr-2.border-bottom.border-primary
+                    form.row.mx-auto(action="")
+                        input.col.form-control-plaintext.pl-1.text-danger(type="text",style="outline:none",placeholder="search something")
+                        button.btn.col-auto.text-primary(type="submit")
+                            span
+                                i.fa.fa-search
+                li.nav-item.mx-1
+                    a.badge.badge-success.p-2(href="")
+                        span login
+                li.nav-item.mx-1
+                    a.badge.badge-primary.p-2(href="")
+                        span sign up
