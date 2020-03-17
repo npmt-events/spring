@@ -1,0 +1,5 @@
+mixin ProductCard(product = {})
+    .card.px-0
+        .card-body
+            p.lead.text-primary #{product.name}
+            p.text-muted.small #{product.desc ? product.desc : "no description"}
