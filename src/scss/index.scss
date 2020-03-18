@@ -1,6 +1,7 @@
 @import "./variables.scss";
 @import "./components/navbar.scss";
 
+// carousel styling
 .carousel {
   .carousel-indicators {
     li {
@@ -8,7 +9,68 @@
     }
 
     .active {
-      background-color: $red;
+      background-color: #fd7d05;
     }
+  }
+}
+
+// product section
+.product-img-container {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  height: 250px;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+
+  .active-thumb {
+    transition: 0.5s;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+  }
+
+  .product-action {
+    transition: 0.5s;
+    background-color: lightblue;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    margin-top: -50px;
+    left: 0;
+    width: 100%;
+
+    & > a {
+      transition: 0.5s;
+      &:hover {
+        color: royalblue !important;
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &:hover {
+    box-shadow: 0px 0px 5px #1115;
+
+    .product-action {
+      margin-top: 0;
+    }
+  }
+}
+
+// typograph
+.heading-1 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+// animations
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
