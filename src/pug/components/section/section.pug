@@ -36,5 +36,32 @@
                 img.img-fluid.rounded(src=require("../images/products/1.jpg").default, alt="")
             .col-lg-6.mt-lg-2(style="max-height:300px;overflow:hidden",data-aos="fade-up",data-aos-duration="2000")
                 img.img-fluid.rounded(src=require("../images/products/0fbbce15480dda14df9938b93658056f.jpg").default, alt="")
-        
+    .col-12.row.mx-auto.p-0.bg-white.py-2.justify-content-between
+        p.col-12.h3.text-center.mb-3
+            span.font-weight-light(style="text-decoration:underline") Random Products
+        +ProductCard({name : 'Dell 3000 Laptop', price : 7000})
+            img.img-fluid.active-thumb(src=require("../images/products/product_1_thumb.jpg").default, alt="")
+        +ProductCard({name : 'Dell 5000 laptop', price : 14000})
+            img.img-fluid.active-thumb(src=require("../images/products/product_1_hover.jpg").default, alt="")
+        +ProductCard({name : 'T-shirt', price : 199})
+            img.img-fluid.active-thumb(src=require("../images/products/t-shirt1.jpg").default, alt="")
+        +ProductCard({name : 'Polo', price : 300})
+            img.img-fluid.active-thumb(src=require("../images/products/71b+fEp2z-L._UY550_.jpg").default, alt="")
+        +ProductCard({name : 'Polo lacoste', price : 400})
+            img.img-fluid.active-thumb(src=require("../images/products/men-27s-polo-t-shirt-500x500.jpg").default, alt="")
+        +ProductCard({name : 'Huawei Y9 prime', price : 4000})
+            img.img-fluid.active-thumb(src=require("../images/products/Huawei-Y9-Prime-2019.jpg").default, alt="")    
+        +ProductCard({name : 'Chrono watch', price : 2000})
+            img.img-fluid.rounded.w-100(src=require("../images/products/chrono_s_blue_brown_1_1024x1024.jpg").default, alt="")
+        +ProductCard({name : 'Zara Suit', price : 1600})
+            img.img-fluid.rounded(src=require("../images/products/10_41_113864_41302398_PIRVING_6-01_1555593422.jpg").default, alt="")
+        +ProductCard({name : 'Awesome dress', price : 2500})
+            img.img-fluid.rounded(src=require("../images/products/10114568_inspired_anytime_midi_dress_navy_MAIN.jpg").default, alt="")
+        +ProductCard({name : 'Addidas Sneaker', price : 1000})
+            img.img-fluid.rounded(src=require("../images/products/1.jpg").default, alt="")
+        +ProductCard({name : 'Nike slipper', price : 400})
+            img.img-fluid.rounded(src=require("../images/products/0fbbce15480dda14df9938b93658056f.jpg").default, alt="")
+
+
+
 
