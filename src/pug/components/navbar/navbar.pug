@@ -1,4 +1,37 @@
 header(style="background-color:lightblue")
+    div.bg-dark.text-light.py-0
+        .row.mx-auto.d-lg-flex.d-none.container.px-2.py-0
+            .col-lg.py-1
+                a.mx-2.text-light(href="")
+                    span
+                        i.fab.fa-facebook
+                a.mx-2.text-light(href="")
+                    span
+                        i.fab.fa-twitter
+                a.mx-2.text-light(href="")
+                    span
+                        i.fab.fa-instagram
+                a.mx-2.text-light(href="")
+                    span
+                        i.fa.fa-phone.fa-rotate-90
+                    span.font-weight-light.ml-2 +02 0333457863
+            .col-lg.text-center
+                span.small.font-weight-light Spring store : mega online store
+            .col-lg
+                ul.nav.justify-content-end
+                    li.nav-item.dropdown
+                        a.dropdown-toggle.nav-link.small.text-light(href="",id="lang",data-toggle="dropdown") EN
+                        .dropdown-menu(aria-labelledby="#lang")
+                            span.dropdown-header.small Select langauge
+                            a.dropdown-item.small(href="") Ar
+                            a.dropdown-item.small(href="") Fr
+                    li.nav-item.dropdown
+                        a.dropdown-toggle.nav-link.small.text-light(href="",id="currency",data-toggle="dropdown") EGP
+                        .dropdown-menu(aria-labelledby="#curreny")
+                            span.dropdown-header.small Select Currency
+                            a.dropdown-item.small(href="") USD
+                            a.dropdown-item.small(href="") EUR
+
     nav.navbar.navbar-expand-lg.navbar-light.container
         a.navbar-brand.text-center(href="")
             span.h2.text-primary Spring
